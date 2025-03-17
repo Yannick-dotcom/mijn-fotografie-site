@@ -26,10 +26,11 @@
     </header>
     
     <!-- Hero Section -->
-    <section class="w-full h-screen flex items-center justify-center bg-cover bg-center relative" style="background-image: url('https://via.placeholder.com/1600x900');">
-        <div class="bg-black bg-opacity-50 p-10 rounded-xl text-center">
+    <section class="w-full h-screen flex items-center justify-center bg-cover bg-center relative" style="background-image: url('https://example.com/jouw-foto.jpg');">
+        <div class="bg-black bg-opacity-60 p-10 rounded-xl text-center max-w-2xl">
             <h2 class="text-5xl font-extrabold">Laat Beelden Spreken</h2>
-            <p class="text-xl mt-4">Professionele fotografie voor ieder moment</p>
+            <p class="text-xl mt-4">Professionele fotografie die verhalen vertelt</p>
+            <a href="#portfolio" class="mt-6 inline-block bg-indigo-600 hover:bg-indigo-500 text-white py-3 px-6 rounded-lg text-lg">Bekijk mijn werk</a>
         </div>
     </section>
     
@@ -37,31 +38,38 @@
     <section id="portfolio" class="p-10">
         <h2 class="text-4xl font-semibold text-center mb-6">Mijn Werk</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <img src="https://via.placeholder.com/400" alt="Foto 1" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
-            <img src="https://via.placeholder.com/400" alt="Foto 2" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
-            <img src="https://via.placeholder.com/400" alt="Foto 3" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+            <img src="https://example.com/foto1.jpg" alt="Foto 1" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+            <img src="https://example.com/foto2.jpg" alt="Foto 2" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+            <img src="https://example.com/foto3.jpg" alt="Foto 3" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
         </div>
     </section>
     
     <!-- Over Mij -->
     <section id="about" class="p-10 bg-gray-800">
         <h2 class="text-4xl font-semibold text-center mb-6">Over Mij</h2>
-        <p class="text-center max-w-2xl mx-auto text-lg">Ik ben een gepassioneerde fotograaf met een liefde voor het vastleggen van bijzondere momenten. Mijn werk draait om het vertellen van visuele verhalen.</p>
+        <p class="text-center max-w-2xl mx-auto text-lg">Ik ben een gepassioneerde fotograaf die graag de schoonheid van het moment vastlegt. Mijn werk draait om het vertellen van visuele verhalen die impact maken.</p>
     </section>
     
     <!-- Contact -->
     <section id="contact" class="p-10">
         <h2 class="text-4xl font-semibold text-center mb-6">Neem Contact Op</h2>
-        <form class="max-w-lg mx-auto flex flex-col gap-4">
-            <input type="text" placeholder="Naam" class="p-4 border border-gray-500 rounded bg-gray-800 text-white">
-            <input type="email" placeholder="E-mail" class="p-4 border border-gray-500 rounded bg-gray-800 text-white">
-            <textarea placeholder="Bericht" class="p-4 border border-gray-500 rounded bg-gray-800 text-white"></textarea>
+        <form action="mailto:yvisualmedia@gmail.com" method="post" enctype="text/plain" class="max-w-lg mx-auto flex flex-col gap-4">
+            <input type="text" name="naam" placeholder="Naam" class="p-4 border border-gray-500 rounded bg-gray-800 text-white">
+            <input type="email" name="email" placeholder="E-mail" class="p-4 border border-gray-500 rounded bg-gray-800 text-white">
+            <textarea name="bericht" placeholder="Bericht" class="p-4 border border-gray-500 rounded bg-gray-800 text-white"></textarea>
             <button type="submit" class="bg-indigo-600 hover:bg-indigo-500 text-white p-4 rounded-lg font-semibold text-lg">Verstuur</button>
         </form>
     </section>
     
     <!-- Footer -->
-    <footer class="text-center p-6 text-gray-400 bg-black bg-opacity-80">© 2025 YVisual Media - Alle rechten voorbehouden</footer>
+    <footer class="text-center p-6 text-gray-400 bg-black bg-opacity-80">
+        <p>© 2025 YVisual Media - Alle rechten voorbehouden</p>
+        <div class="mt-4 flex justify-center gap-6">
+            <a href="https://www.instagram.com/yvisualmedia?igsh=Yml2OThyZm92eTZn&utm_source=qr" target="_blank" class="hover:text-gray-300">Instagram</a>
+            <a href="https://www.linkedin.com/in/jouwlinkedin" target="_blank" class="hover:text-gray-300">LinkedIn</a>
+            <a href="mailto:yvisualmedia@gmail.com" class="hover:text-gray-300">E-mail</a>
+        </div>
+    </footer>
     
 </body>
 </html>
