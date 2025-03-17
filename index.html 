@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografie Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+    
+    <!-- Header -->
+    <header class="w-full p-6 flex justify-between items-center">
+        <h1 class="text-2xl font-semibold">Mijn Fotografie</h1>
+        <nav>
+            <ul class="flex gap-6">
+                <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+                <li><a href="#about" class="hover:underline">Over Mij</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="w-full h-screen flex items-center justify-center bg-gray-100">
+        <h2 class="text-4xl font-bold">Welkom bij mijn Fotografie Portfolio</h2>
+    </section>
+    
+    <!-- Portfolio Sectie -->
+    <section id="portfolio" class="p-10">
+        <h2 class="text-3xl font-semibold text-center mb-6">Mijn Werk</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <img src="https://via.placeholder.com/400" alt="Foto 1" class="rounded-lg shadow-md">
+            <img src="https://via.placeholder.com/400" alt="Foto 2" class="rounded-lg shadow-md">
+            <img src="https://via.placeholder.com/400" alt="Foto 3" class="rounded-lg shadow-md">
+        </div>
+    </section>
+    
+    <!-- Over Mij -->
+    <section id="about" class="p-10 bg-gray-100">
+        <h2 class="text-3xl font-semibold text-center mb-6">Over Mij</h2>
+        <p class="text-center max-w-2xl mx-auto">Ik ben een gepassioneerde fotograaf met een liefde voor het vastleggen van bijzondere momenten.</p>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact" class="p-10">
+        <h2 class="text-3xl font-semibold text-center mb-6">Neem Contact Op</h2>
+        <form class="max-w-lg mx-auto flex flex-col gap-4">
+            <input type="text" placeholder="Naam" class="p-3 border border-gray-300 rounded">
+            <input type="email" placeholder="E-mail" class="p-3 border border-gray-300 rounded">
+            <textarea placeholder="Bericht" class="p-3 border border-gray-300 rounded"></textarea>
+            <button type="submit" class="bg-black text-white p-3 rounded">Verstuur</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="text-center p-6 text-gray-500">© 2025 Mijn Fotografie</footer>
+    
+</body>
+</html>
